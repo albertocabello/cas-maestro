@@ -17,7 +17,7 @@ get_header(); ?>
 	           
 				<div class="entry-content">
 					<?php echo sprintf(__("The username %s isn't allowed to register in this website. If you think this is a mistake, please contact the <a href=\"mailto:%s\">website administrator</a>."),$username,get_option('admin_email'));?>
-					<p><a href="<?php echo wp_logout_url();?>">Log out</a> of CAS.</p>
+					<p><a href="/wp-login.php?action=logout">Log out</a> of CAS.</p>
 
 				</div>
 			</article>
